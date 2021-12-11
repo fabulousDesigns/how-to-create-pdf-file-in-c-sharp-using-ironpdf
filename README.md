@@ -1,9 +1,26 @@
-### learn how to create pdf file in c sharp using ironpdf
+### Overview
+--
+IronPDF is a .NET library to generate, read, edit & save PDF files in .NET projects. IronPDF features HTML to PDF for .NET 5, Core, Standard & Framework with full HTML to PDF support including CSS3 and JS.
 
-Software developers must know how to create a pdf file dynamically through C# code, as this is considered a need in almost all projects in today's world. You may come across various problems where you need to create a Pdf file such as generating a report from user input, saving user text as pdf, extracting HTML content and converting it into pdf, etc.
-You might be thinking that it would be a complex task. But thanks to IronPdf, It's as easy as calculating 2+3.
-You can create a pdf file from C# with just 2 lines of code.
+Visit our website for a quick-start guide at [ironpdf](https://ironpdf.com/docs/)
 
-Explore more about Ironpdf from this [URL](https://ironpdf.com/).
+### C# Code Example:
+--
+var Renderer = new IronPdf.ChromePdfRenderer();
+Renderer.RenderHtmlAsPdf("<h1>Html with CSS and Images</h1>").SaveAs("pixel-perfect.pdf");
+ 
+### Documentation Links
+--
+[Code Samples](https://ironpdf.com/examples/)
+[MSDN Class Reference](https://ironpdf.com/object-reference/api/)
+[Tutorials](https://ironpdf.com/tutorials/)
+[Licensing](https://ironpdf.com/licensing/)
+Support : developers@ironsoftware.com
 
-I have prepared an example demo for you, to show how we can create pdf document using C#.
+### Compatibility
+--
+* C#, F#, and VB.NET
+* .Net 5, Core 2x & 3x, Standard 2, and Framework 4x
+* Console, Web, & Desktop Apps
+* Windows, Linux (Debian, CentOS, Ubuntu), MacOs, Docker, and Azure
+* Microsoft Visual Studio or Jetbrains ReSharper & Rider
